@@ -1,0 +1,38 @@
+/* PostList.module.css */
+
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  padding: 15px;
+  border: 1px solid #ddd;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.userId {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 5px;
+}
+
+.title {
+  margin: 0 0 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.body {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
